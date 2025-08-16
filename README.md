@@ -1,5 +1,5 @@
 # Helldivers Dropzone — Cache-First Loadout Generator (Subjective Programming Demo)
-
+  
 A backend service (FastAPI + OpenAI) that recommends Helldivers 2 loadouts using a **hybrid approach**:
 
 * **Objective rails (code):** hard constraints, validation, novelty rules, caching.
