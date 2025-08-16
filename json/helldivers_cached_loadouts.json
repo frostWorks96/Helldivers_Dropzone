@@ -1,0 +1,1112 @@
+{
+  "Crowd Control_automatons": {
+    "loadout": {
+      "primary": {
+        "name": "SMG-72 Pummeler",
+        "score": 7.0,
+        "Type": "Primary",
+        "Damage Type": "Stun",
+        "special_traits": "Cround Control",
+        "goal": "Control crowds with stun damage "
+      },
+      "secondary": {
+        "name": "P-4 Senator",
+        "score": 9.0,
+        "Type": "Secondary",
+        "Damage Type": "Balistic",
+        "special_traits": "Weak Point Killer",
+        "goal": "Cleanse elite units with powerful single shots"
+      },
+      "grenade": {
+        "name": "G-142 Pyrotech",
+        "score": 8.0,
+        "Type": "Throwable",
+        "Damage Type": "Explosion + Fire",
+        "special_traits": "Sparks scatter before explosion; medium penetration + fire DOT",
+        "goal": "Spread fire and explosion to control crowds and melt medium-heavy armor"
+      },
+      "armor_passive": {
+        "name": "Acclimated",
+        "score": 5.0,
+        "Type": "Armor Passives",
+        "Damage Type": "Unknown",
+        "special_traits": "Resist environmental & faction elemental damage",
+        "goal": "Used to reduce all elemental damage"
+      }
+    },
+    "stratagems": [
+      {
+        "name": "RL-77 Airburst Rocket Launcher",
+        "score": 8.0,
+        "category": "Support Weapons",
+        "Damage Type": "Explosive",
+        "squad_role": "Stratagem Support",
+        "is_backpack": true,
+        "is_disposable": false,
+        "special_traits": "Mobile artillery",
+        "goal": "Eliminate grouped enemies, suppress distractions"
+      },
+      {
+        "name": "FX-12 Shield Generator Relay",
+        "score": 10.0,
+        "category": "Emplacement",
+        "Damage Type": "N/A",
+        "squad_role": "Stratagem Support",
+        "is_backpack": false,
+        "is_disposable": false,
+        "special_traits": "Static 360 bubble shield; blocks incoming projectiles",
+        "goal": "Provide temporary cover by blocking enemy projectile attacks in all directions"
+      },
+      {
+        "name": "Orbital 380mm HE Barrage",
+        "score": 8.0,
+        "category": "Orbital",
+        "Damage Type": "Explosive",
+        "squad_role": "Saboteur",
+        "is_backpack": false,
+        "is_disposable": false,
+        "special_traits": "Massive 380mm artillery shells from orbit; extremely high damage in a focused area",
+        "goal": "Utterly devastate a fixed location (e.g., boss or structure) with heavy orbital artillery (at cost of long cooldown)"
+      },
+      {
+        "name": "A-ARC-3 Tesla Tower",
+        "score": 3.0,
+        "category": "Sentry",
+        "Damage Type": "ARC",
+        "squad_role": "Crowd Control",
+        "is_backpack": false,
+        "is_disposable": false,
+        "special_traits": "Stationary arc defense tower; periodically zaps multiple enemies with chaining lightning bolts",
+        "goal": "Base defense against hordes  automatically stun and thin out waves of enemies with electrical arcs"
+      }
+    ],
+    "how_to_play": {
+      "solo": "Equip SMG-72 Pummeler to stun advancing enemies, strategically use P-4 Senator for high-threat targets. Deploy Tesla Towers to manage crowd control autonomously, while using the RL-77 Airburst Rocket Launcher to counter grouped enemies. Use the Orbital 380mm HE Barrage for annihilating large clusters or tough defenses.",
+      "co_op": "Coordinate with teammates to optimize area denial. Let them know when deploying FX-12 Shield Generator Relay for protection, synchronize Tesla Tower placements for maximized coverage. Use the RL-77 and Orbital Barrage for strategic strikes on enemy concentrations.",
+      "positioning": "Stay mobile and at a safe distance to continuously manage enemy hordes with your primary. Utilize terrain and your FX-12 Shield Generator Relay for temporary defensive positions.",
+      "combo_flow": "Start with RL-77 to soften up groups, deploy Tesla Towers, switch to SMG-72 Pummeler for continuous crowd control, and use P-4 Senator for high-value threats. Employ Orbital Barrage for overwhelming enemy forces or strongholds."
+    },
+    "objective": "Control and manage large groups of automaton enemies, utilizing area denial and strategic stun capabilities to maintain battlefield superiority.",
+    "lore": "In the mechanized wastelands of Cybridia, the 'Static Surge' loadout is a tactical necessity for Helldivers. Equipped for electromagnetic warfare, these specialists manipulate the flow of battle against relentless automaton waves, cracking their defenses with surgically timed disruptions.",
+    "loadout_name": "Static Surge (2)",
+    "role": "Crowd Control",
+    "enemy": "automatons"
+  },
+  "Crowd Control_terminids": {
+    "loadout": {
+      "primary": {
+        "name": "LAS-5 Scythe",
+        "score": 7.0,
+        "Type": "Primary",
+        "Damage Type": "incendiary",
+        "special_traits": "Ignite",
+        "goal": "Sustain continuous beam to burn bots at midlong range"
+      },
+      "secondary": {
+        "name": "CQC-30 Stun Baton",
+        "score": 8.0,
+        "Type": "Secondary",
+        "Damage Type": "Melee",
+        "special_traits": "Stun",
+        "goal": "Disrupt melee threats with blunt electrical hits"
+      },
+      "grenade": {
+        "name": "G-23 Stun",
+        "score": 8.0,
+        "Type": "Throwable",
+        "Damage Type": "Stun",
+        "special_traits": "Non-damaging AoE stun",
+        "goal": "Freeze enemies in place for repositioning"
+      },
+      "armor_passive": {
+        "name": "Inflammable",
+        "score": 8.0,
+        "Type": "Armor Passives",
+        "Damage Type": "Fire",
+        "special_traits": "85% fire resist",
+        "goal": "Used to protect you from your own fire damage. Special note: LAS-17 Double-Edge Sickle can reach max damage with this passive"
+      }
+    },
+    "stratagems": [
+      {
+        "name": "FLAM-40 Flamethrower",
+        "score": 10.0,
+        "category": "Support Weapons",
+        "Damage Type": "Fire",
+        "squad_role": "Crowd Control",
+        "is_backpack": false,
+        "is_disposable": false,
+        "special_traits": "Incendiary stream weapon, continuous close-range fire, creates lingering flames",
+        "goal": "Torch and control hordes of enemies at close range; area denial via napalm flames"
+      },
+      {
+        "name": "AX-LAS-5 Guard Dog Rover",
+        "score": 8.0,
+        "category": "Backpack",
+        "Damage Type": "Incendiary",
+        "squad_role": "Crowd Control",
+        "is_backpack": true,
+        "is_disposable": false,
+        "special_traits": "Small autonomous rover armed with a LAS-5 laser; patrols around the deployer",
+        "goal": "Act as a mobile guard  automatically zaps nearby hostiles with a laser, watching the Helldivers back"
+      },
+      {
+        "name": "A-G-16 Gatling Sentry",
+        "score": 9.0,
+        "category": "Sentry",
+        "Damage Type": "Balistic",
+        "squad_role": "Crowd Control",
+        "is_backpack": false,
+        "is_disposable": false,
+        "special_traits": "Automated turret with a Gatling gun; very high rate-of-fire, shorter operation time",
+        "goal": "Rapidly cut down incoming swarms of light enemies; excellent decoy and suppression but limited duration"
+      },
+      {
+        "name": "Orbital Gas Strike",
+        "score": 9.0,
+        "category": "Orbital",
+        "Damage Type": "Toxic Gas",
+        "squad_role": "Crowd Control",
+        "is_backpack": false,
+        "is_disposable": false,
+        "special_traits": "Orbital deployment of chemical gas warheads; saturates area with toxic gas clouds",
+        "goal": "Disable and damage enemies in an area without structural damage  poison infantry and unshielded targets"
+      }
+    ],
+    "how_to_play": {
+      "solo": "Use FLAM-40 and LAS-5 Scythe for close to mid-range area denial. Use the A-G-16 and AX-LAS-5 Rover for covering your flanks and maintaining pressure on swarms.",
+      "co_op": "Coordinate FLAM-40 and Orbital Gas Strike uses with teammates to maximize area control. Support other Helldivers by creating choke points with stuns from G-23.",
+      "positioning": "Stay mobile, utilize the mobility of the rover and the range of your stun baton and lasers to maintain safe distances from clusters of enemies.",
+      "combo_flow": "Begin by deploying the AX-LAS-5 Rover to begin suppression, follow with a Flamethrower to crowd control, and pin down with G-23 Stun grenades as needed."
+    },
+    "objective": "Control and dominate the battlefield by incapacitating swarms of Terminids, ensuring no enemy breach occurs.",
+    "lore": "Under the ashen skies of frontier worlds, the 'Inferno Warden' loadout has become a beacon of relentless control against the swarming Terminids, turning their numbers into ash before they reach Helldiver positions.",
+    "loadout_name": "Inferno Warden (9)",
+    "role": "Crowd Control",
+    "enemy": "terminids"
+  },
+  "Crowd Control_illuminate": {
+    "loadout": {
+      "primary": {
+        "name": "FLAM-66 Torcher",
+        "score": 8.5,
+        "Type": "Primary",
+        "Damage Type": "Fire",
+        "special_traits": "Cround Control",
+        "goal": "Clear flammable clusters with sustained fire wall"
+      },
+      "secondary": {
+        "name": "P-72 Crisper",
+        "score": 9.0,
+        "Type": "Secondary",
+        "Damage Type": "Fire",
+        "special_traits": "Cround Control",
+        "goal": "Flash-Fire Crowd-Control in shotgun pistol package"
+      },
+      "grenade": {
+        "name": "G-10 Incendiary",
+        "score": 7.0,
+        "Type": "Throwable",
+        "Damage Type": "Impact Explosion",
+        "special_traits": "Impact detonation; heavy penetration",
+        "goal": "Instant kill on contact; close breaches"
+      },
+      "armor_passive": {
+        "name": "Engineering Kit",
+        "score": 8.0,
+        "Type": "Armor Passives",
+        "Damage Type": "Unknown",
+        "special_traits": "Increase max grenade capacity by 2 and 50% less recoil",
+        "goal": "Throw more grenades before having to resupply"
+      }
+    },
+    "stratagems": [
+      {
+        "name": "FLAM-40 Flamethrower",
+        "score": 10.0,
+        "category": "Support Weapons",
+        "Damage Type": "Fire",
+        "squad_role": "Crowd Control",
+        "is_backpack": false,
+        "is_disposable": false,
+        "special_traits": "Incendiary stream weapon, continuous close-range fire, creates lingering flames",
+        "goal": "Torch and control hordes of enemies at close range; area denial via napalm flames"
+      },
+      {
+        "name": "A-FLAM-40 Flame Sentry",
+        "score": 10.0,
+        "category": "Sentry",
+        "Damage Type": "Fire",
+        "squad_role": "Crowd Control",
+        "is_backpack": false,
+        "is_disposable": false,
+        "special_traits": "Automated flamethrower turret; continuous short-range napalm stream",
+        "goal": "Area denial and base defense incinerate any enemy that comes close, ideal for chokepoints"
+      },
+      {
+        "name": "Orbital Gas Strike",
+        "score": 9.0,
+        "category": "Orbital",
+        "Damage Type": "Toxic Gas",
+        "squad_role": "Crowd Control",
+        "is_backpack": false,
+        "is_disposable": false,
+        "special_traits": "Orbital deployment of chemical gas warheads; saturates area with toxic gas clouds",
+        "goal": "Disable and damage enemies in an area without structural damage poison infantry and unshielded targets"
+      },
+      {
+        "name": "Orbital Gatling Barrage",
+        "score": 4.0,
+        "category": "Orbital",
+        "Damage Type": "Balistic",
+        "squad_role": "Crowd Control",
+        "is_backpack": false,
+        "is_disposable": false,
+        "special_traits": "Wide-area strafing from orbit with gatling cannons; moderate damage spread over a broad line",
+        "goal": "Suppress and kill large numbers of weak enemies over an area (less effective on single heavies)"
+      }
+    ],
+    "how_to_play": {
+      "solo": "Utilize the FLAM-66 Torcher and P-72 Crisper for close to medium-range crowd control. Deploy the A-FLAM-40 Flame Sentry at strategic points for ongoing area denial. Use the Orbital Gas Strike and Orbital Gatling Barrage to manage larger clusters of enemies.",
+      "co_op": "Coordinate with teammates to cover multiple angles, using your flame-based weapons and stratagems for controlling enemy advances. Support your team by placing incendiary stratagems at chokepoints and high-traffic lanes.",
+      "positioning": "Maintain a safe distance from the enemies while ensuring the effectiveness of fire-based weapons. Use terrain to funnel enemies into the effective range of your sentry and orbital strikes.",
+      "combo_flow": "Start with G-10 Incendiary to disrupt enemy clusters, follow up with sustained use of FLAM-66 or P-72 to maintain pressure, and deploy Flamethrower or Sentry for fortified positions. Utilize Orbital Strikes as a finishing move on larger threats."
+    },
+    "objective": "Dominate control of battle zones by mastering fire-based weaponry and stratagems, effectively stalling and eliminating large groups of Illuminate forces.",
+    "lore": "Armed with the Helldivers' most volatile incendiary equipment, your mission is to scorch the Illuminate swarm with relentless flames. The infernal light of your arsenal serves not just as a weapon, but as a grim reminder of the Helldivers' resolve against alien encroachment.",
+    "loadout_name": "Inferno Ember Guard"
+  },
+  "Anti-Tank_automatons": {
+    "loadout": {
+      "primary": {
+        "name": "AR-23P Liberator Penetrator",
+        "score": 8.0,
+        "Type": "Primary",
+        "Damage Type": "Balistic",
+        "special_traits": "Accurate Penetrator",
+        "goal": "Pierce through medium-armored troops with precision"
+      },
+      "secondary": {
+        "name": "GP-20 Ultimatum",
+        "score": 8.0,
+        "Type": "Secondary",
+        "Damage Type": "Explosive",
+        "special_traits": "Destroys most things",
+        "goal": "Obliterate armoured threats with Explosive pistol blasts"
+      },
+      "grenade": {
+        "name": "G-123 Thermite",
+        "score": 9.0,
+        "Type": "Throwable",
+        "Damage Type": "Explosion + Thermite Burn",
+        "special_traits": "Stick-on; damage over time",
+        "goal": "Melt through heavy armor consistently"
+      },
+      "armor_passive": {
+        "name": "Gunslinger",
+        "score": 9.0,
+        "Type": "Armor Passives",
+        "Damage Type": "Unknown",
+        "special_traits": "Make sidearms fast and stable in gunplay",
+        "goal": "Make sidearms as good as primary weapons"
+      }
+    },
+    "stratagems": [
+      {
+        "name": "GL-52 De-Escalator",
+        "score": 9.0,
+        "category": "Support Weapons",
+        "Damage Type": "ARC",
+        "squad_role": "Anti-Tank",
+        "is_backpack": false,
+        "is_disposable": false,
+        "special_traits": "Six-shot stun grenade launcher (Tesla grenades), medium armor penetration, non-lethal crowd control",
+        "goal": "Rapidly pacify crowds  fire volleys of arc stun grenades that neutralize groups without destroying infrastructure"
+      },
+      {
+        "name": "Orbital Laser",
+        "score": 9.0,
+        "category": "Orbital",
+        "Damage Type": "Incendiary",
+        "squad_role": "Saboteur",
+        "is_backpack": false,
+        "is_disposable": false,
+        "special_traits": "Space-based laser beam strike; instant, precise, continuous beam for a short duration",
+        "goal": "Slice through a targeted area or single large enemy with a pinpoint orbital laser (no travel time)"
+      },
+      {
+        "name": "A-AC-8 Autocannon Sentry",
+        "score": 8.0,
+        "category": "Sentry",
+        "Damage Type": "Explosive",
+        "squad_role": "Anti-Tank",
+        "is_backpack": false,
+        "is_disposable": false,
+        "special_traits": "Automated Autocannon turret; fires 3-round bursts of armor-piercing, high-explosive shells",
+        "goal": "Guard an area with bursts of explosive fire  effective against both groups and single tough targets"
+      },
+      {
+        "name": "EAT-17 Expendable Anti-Tank",
+        "score": 7.0,
+        "category": "Support Weapons",
+        "Damage Type": "Explosive",
+        "squad_role": "Anti-Tank",
+        "is_backpack": false,
+        "is_disposable": true,
+        "special_traits": "One-use disposable anti-tank rocket, high explosive payload",
+        "goal": "Destroy a heavily armored enemy (tank, heavy) with a single shot"
+      }
+    ],
+    "how_to_play": {
+      "solo": "Keep mobile and use your secondary Ultimatum for quick explosive damage against single heavy targets. Strategically place your A-AC-8 Autocannon Sentry to cover your flanks or objective points. Use the EAT-17 for emergency situations against the toughest foes. Call down the Orbital Laser against clustered or exceptionally tough enemies.",
+      "co_op": "Coordinate with your team to cover different angles. Use your GL-52 for crowd control while teammates focus fire. Place the Autocannon Sentry in strategic locations where it can maximize damage without risking friendly fire. Share the EAT-17 rockets with teammates who have a clear shot.",
+      "positioning": "Stay at medium range, utilizing your AR-23P for consistent damage. Place your Autocannon Sentry to cover your advance or defend a location. Keep aware of your surroundings to avoid being flanked.",
+      "combo_flow": "Open with GL-52 to pacify large groups, switch to AR-23P for penetrating shots on medium armor, use GP-20 Ultimatum for high-impact damage on tough targets, and deploy the A-AC-8 Sentry for autonomous defense. Utilize the Orbital Laser and EAT-17 for high-priority targets."
+    },
+    "objective": "Neutralize armored and mechanized threats using a mix of high explosive and precision directed fire to maintain battlefield dominance against automatons.",
+    "lore": "In the unyielding war against the mechanized horrors, the Helldivers' 'Titan Shatterer' squad represents the spearhead of anti-armor tactics. Armed with the most devastating weapons, they reduce mighty automatons to smoldering ruins.",
+    "loadout_name": "Titan Shatterer (5)",
+    "role": "Anti-Tank",
+    "enemy": "automatons"
+  },
+  "Anti-Tank_terminids": {
+    "loadout": {
+      "primary": {
+        "name": "AR-23P Liberator Penetrator",
+        "score": 5.5,
+        "Type": "Primary",
+        "Damage Type": "Balistic",
+        "special_traits": "Accurate Penetrator",
+        "goal": "Pierce through medium-armored troops with precision"
+      },
+      "secondary": {
+        "name": "LAS-58 Talon",
+        "score": 8.0,
+        "Type": "Secondary",
+        "Damage Type": "Laser",
+        "special_traits": "Burst kill",
+        "goal": "Laser-sidearm burst for precision finishers"
+      },
+      "grenade": {
+        "name": "G-12 High Explosive",
+        "score": 8.0,
+        "Type": "Throwable",
+        "Damage Type": "Explosion",
+        "special_traits": "Heavy armor penetration; default",
+        "goal": "Deal consistent heavy damage across enemy types"
+      },
+      "armor_passive": {
+        "name": "Engineering Kit",
+        "score": 8.0,
+        "Type": "Armor Passives",
+        "Damage Type": "Unknown",
+        "special_traits": "Increase max grenade capacity by 2 and 50% less recoil",
+        "goal": "Throw more grenades before having to resupply"
+      }
+    },
+    "stratagems": [
+      {
+        "name": "RS-422 Railgun",
+        "score": 8.0,
+        "category": "Support Weapons",
+        "Damage Type": "Explosive",
+        "squad_role": "Stratagem Support",
+        "is_backpack": false,
+        "is_disposable": false,
+        "special_traits": "Charged precision rifle, extreme armor penetration, very slow fire rate",
+        "goal": "Punch through heavily armored targets with a single powerful shot (requires charging between shots)"
+      },
+      {
+        "name": "Eagle 500kg Bomb",
+        "score": 10.0,
+        "category": "Eagle",
+        "Damage Type": "Explosive",
+        "squad_role": "Anti-Tank",
+        "is_backpack": false,
+        "is_disposable": false,
+        "special_traits": "Massive single anti-tank bomb (500kg / ~1100 lb), penetrates ground then explodes, huge damage (Anti-Tank III)",
+        "goal": "Obliterate a single target (or tight cluster) with a super-heavy bomb capable of killing almost anything near impact (use with caution!)"
+      },
+      {
+        "name": "EXO-49 Emancipator Exosuit",
+        "score": 8.0,
+        "category": "Vehicle",
+        "Damage Type": "Explosive",
+        "squad_role": "Anti-Tank",
+        "is_backpack": false,
+        "is_disposable": false,
+        "special_traits": "Heavily armored bipedal vehicle; equipped with rocket launcher & heavy MG; anti-tank capable",
+        "goal": "Mobile firepower platform provides heavy fire support against both infantry and armored targets"
+      },
+      {
+        "name": "Orbital Precision Strike",
+        "score": 6.0,
+        "category": "Orbital",
+        "Damage Type": "Explosive",
+        "squad_role": "Anti-Tank",
+        "is_backpack": false,
+        "is_disposable": false,
+        "special_traits": "Very accurate orbital strike (small blast radius); minimal collateral damage anti-armor strike",
+        "goal": "Take out a single high-value target with surgical orbital munitions, even if surrounded by friendlies"
+      }
+    ],
+    "how_to_play": {
+      "solo": "Utilize the AR-23P for precise targeting of mid-armored troops. Implement the LAS-58 and G-12 grenades for rapid dispatch of heavily armored units. Use the RS-422 Railgun and Orbital Precision Strike to efficiently eliminate high-value targets from a safe distance.",
+      "co_op": "Coordinate with teammates to control enemy movement. Act as the lead in disabling and destroying heavy armor with your Eagle 500kg Bomb and EXO-49 Exosuit, ensuring you are supported for reloading or repositioning.",
+      "positioning": "Maintain a safe distance from direct enemy fire while using long-range stratagems. Be agile to quickly reposition for optimal angles with the RS-422 Railgun and to evade incoming attacks.",
+      "combo_flow": "Start with the AR-23P for initial engagement, switch to LAS-58 for closer encounters. Use grenades to disrupt groups and finish with the Railgun for high-armored targets. Deploy the EXO-49 for ongoing support and use the Eagle Bomb for clustered or critical enemy structures."
+    },
+    "objective": "Neutralize terminid heavy armored units and defense structures with precision and high-explosive ordnance to support Helldiver operations.",
+    "lore": "In the scorched battlefields against the terminids, the 'Tank Piercer' loadout was developed to turn the tide. Equipped to handle the most formidable armor the enemy deploys, each Helldiver becomes a pivotal piece in the war for galactic peace.",
+    "loadout_name": "Tank Piercer (4)",
+    "role": "Anti-Tank",
+    "enemy": "terminids"
+  },
+  "Anti-Tank_illuminate": {
+    "loadout": {
+      "primary": {
+        "name": "AR-23P Liberator Penetrator",
+        "score": 7.0,
+        "Type": "Primary",
+        "Damage Type": "Balistic",
+        "special_traits": "Accurate Penetrator",
+        "goal": "Pierce through medium-armored troops with precision"
+      },
+      "secondary": {
+        "name": "CQC-2 Saber",
+        "score": 8.0,
+        "Type": "Secondary",
+        "Damage Type": "Stun",
+        "special_traits": "Style",
+        "goal": "Slash through melee ranges with sharp thrusts"
+      },
+      "grenade": {
+        "name": "G-10 Incendiary",
+        "score": 7.0,
+        "Type": "Throwable",
+        "Damage Type": "Impact Explosion",
+        "special_traits": "Impact detonation; heavy penetration",
+        "goal": "Instant kill on contact; close breaches"
+      },
+      "armor_passive": {
+        "name": "Siege-Ready",
+        "score": 8.0,
+        "Type": "Armor Passives",
+        "Damage Type": "Unknown",
+        "special_traits": "Reload faster and carry more ammo for primary weapons",
+        "goal": "Used with low ammo weapons"
+      }
+    },
+    "stratagems": [
+      {
+        "name": "MG-43 Machine Gun",
+        "score": 9.0,
+        "category": "Support Weapons",
+        "Damage Type": "Balistic",
+        "squad_role": "Crowd Control",
+        "is_backpack": false,
+        "is_disposable": false,
+        "special_traits": "High rate-of-fire, medium armor penetration",
+        "goal": "Engage large numbers of small to medium enemies with sustained fire"
+      },
+      {
+        "name": "EXO-49 Emancipator Exosuit",
+        "score": 8.0,
+        "category": "Vehicle",
+        "Damage Type": "Explosive",
+        "squad_role": "Anti-Tank",
+        "is_backpack": false,
+        "is_disposable": false,
+        "special_traits": "Heavily armored bipedal vehicle; equipped with rocket launcher & heavy MG; anti-tank capable",
+        "goal": "Mobile firepower platform  provides heavy fire support against both infantry and armored targets"
+      },
+      {
+        "name": "A-MLS-4X Rocket Sentry",
+        "score": 6.0,
+        "category": "Sentry",
+        "Damage Type": "Explosive",
+        "squad_role": "Anti-Tank",
+        "is_backpack": false,
+        "is_disposable": false,
+        "special_traits": "Automated mini-rocket launcher turret; fires guided mini-rockets at targets",
+        "goal": "Defensive anti-armor support  tracks and strikes incoming medium enemies with homing rockets"
+      },
+      {
+        "name": "EAT-17 Expendable Anti-Tank",
+        "score": 4.0,
+        "category": "Support Weapons",
+        "Damage Type": "Explosive",
+        "squad_role": "Anti-Tank",
+        "is_backpack": false,
+        "is_disposable": true,
+        "special_traits": "One-use disposable anti-tank rocket, high explosive payload",
+        "goal": "Destroy a heavily armored enemy (tank, heavy) with a single shot"
+      }
+    ],
+    "how_to_play": {
+      "solo": "Utilize the EXO-49 for mobility and heavy firepower, transitioning to EAT-17 for critical high-armor threats. Position the A-MLS-4X strategically for area denial.",
+      "co_op": "Coordinate with teammates for covering fire while deploying the EXO-49. Use the MG-43 for suppression and allow allies to maneuver or use heavy explosives.",
+      "positioning": "Stay at medium range to leverage the AR-23P and MG-43's effective range. Use terrain for cover when reloading or deploying stratagems.",
+      "combo_flow": "Start with MG-43 to thin enemies, deploy the EXO-49 when facing heavy armor, switch to EAT-17 for immediate high-threat tanks, and position A-MLS-4X for ongoing support."
+    },
+    "objective": "Engage and destroy all enemy armored units, ensuring area dominance against high-threat vehicles and fortified positions.",
+    "lore": "As the Illuminate forces adapt with increasingly resilient armor technologies, the Helldiver's duty is clear: deploy, dominate, and dismantle. The 'Phantom Shatter' protocol is at the forefront of this armored warfare, striking fear into the mechanical hearts of our foes.",
+    "loadout_name": "Phantom Shatter (2)",
+    "role": "Anti-Tank",
+    "enemy": "illuminate"
+  },
+  "Saboteur_automatons": {
+    "loadout": {
+      "primary": {
+        "name": "PLAS-39 Accelerator Rifle",
+        "score": 8.0,
+        "Type": "Primary",
+        "Damage Type": "Plasma",
+        "special_traits": "Low Ammo Fast Kills",
+        "goal": "Pinpoint plasma shots to kill fast and clean"
+      },
+      "secondary": {
+        "name": "GP-20 Ultimatum",
+        "score": 8.0,
+        "Type": "Secondary",
+        "Damage Type": "Explosive",
+        "special_traits": "Destroys most things",
+        "goal": "Obliterate armoured threats with Explosive pistol blasts"
+      },
+      "grenade": {
+        "name": "G-12 High Explosive",
+        "score": 8.0,
+        "Type": "Throwable",
+        "Damage Type": "Explosion",
+        "special_traits": "Heavy armor penetration; default",
+        "goal": "Deal consistent heavy damage across enemy types"
+      },
+      "armor_passive": {
+        "name": "Unflinching",
+        "score": 8.0,
+        "Type": "Armor Passives",
+        "Damage Type": "Unknown",
+        "special_traits": "Reduce flinch, camera shake and improve durability",
+        "goal": "Stay shooting on target even when shot, better for anti-tank"
+      }
+    },
+    "stratagems": [
+      {
+        "name": "LAS-99 Quasar Cannon",
+        "score": 9.0,
+        "category": "Support Weapons",
+        "Damage Type": "Explosive",
+        "squad_role": "Saboteur",
+        "is_backpack": false,
+        "is_disposable": false,
+        "special_traits": "Energy-based heavy weapon, charge-up beam, infinite ammo (cooldown instead of reload)",
+        "goal": "Defeat heavily armored elite enemies with a charged explosive laser burst"
+      },
+      {
+        "name": "Orbital 120mm HE Barrage",
+        "score": 9.0,
+        "category": "Orbital",
+        "Damage Type": "Explosive",
+        "squad_role": "Saboteur",
+        "is_backpack": false,
+        "is_disposable": false,
+        "special_traits": "Series of 120mm high-explosive artillery rounds from orbit; high demolition force",
+        "goal": "Bombard and flatten enemy fortifications or concentrations with medium-caliber orbital artillery"
+      },
+      {
+        "name": "Orbital 380mm HE Barrage",
+        "score": 8.0,
+        "category": "Orbital",
+        "Damage Type": "Explosive",
+        "squad_role": "Saboteur",
+        "is_backpack": false,
+        "is_disposable": false,
+        "special_traits": "Massive 380mm artillery shells from orbit; extremely high damage in a focused area",
+        "goal": "Utterly devastate a fixed location (e.g., boss or structure) with heavy orbital artillery (at cost of long cooldown)"
+      },
+      {
+        "name": "EAT-17 Expendable Anti-Tank",
+        "score": 7.0,
+        "category": "Support Weapons",
+        "Damage Type": "Explosive",
+        "squad_role": "Anti-Tank",
+        "is_backpack": false,
+        "is_disposable": true,
+        "special_traits": "One-use disposable anti-tank rocket, high explosive payload",
+        "goal": "Destroy a heavily armored enemy (tank, heavy) with a single shot"
+      }
+    ],
+    "how_to_play": {
+      "solo": "Focus on positioning to use the surroundings for cover while deploying your orbital barrages strategically to manage groups or tough targets. Utilize your PLAS-39 and GP-20 for immediate threats.",
+      "co_op": "Coordinate with team members to manage threats and apply strategic barrages. Ensure spacing to safely use your explosive tools without harming allies.",
+      "positioning": "Maintain a mid-range distance from enemies to effectively use your rifle and pistol while staying clear for orbital strike call-ins.",
+      "combo_flow": "Begin engagements with the GP-20 if overwhelmed, then switch to your primary for precision shots. Use stratagem barrages for heavy fortifications or dense enemy groups, and the EAT-17 for emergent high-value targets."
+    },
+    "objective": "Eliminate high-value structures and armored units using precision and high-powered demolitions, ensuring mission areas are cleared efficiently.",
+    "lore": "Infiltrating the steel heartlands of the automatons, the Saboteur's mission is to dismantle and destroy their essential infrastructure, leaving nothing but ruins beneath the liberated skies of conquered territories.",
+    "loadout_name": "Circuit Breaker (3)",
+    "role": "Saboteur",
+    "enemy": "automatons"
+  },
+  "Saboteur_terminids": {
+    "loadout": {
+      "primary": {
+        "name": "SG-451 Cookout",
+        "score": 9.0,
+        "Type": "Primary",
+        "Damage Type": "incendiary",
+        "special_traits": "Push Back",
+        "goal": "Incinerate close threats with fiery knockback bursts"
+      },
+      "secondary": {
+        "name": "P-72 Crisper",
+        "score": 9.0,
+        "Type": "Secondary",
+        "Damage Type": "Fire",
+        "special_traits": "Cround Control",
+        "goal": "Flash-Fire Crowd-Control in shotgun pistol package"
+      },
+      "grenade": {
+        "name": "G-13 Incendiary Impact",
+        "score": 8.0,
+        "Type": "Throwable",
+        "Damage Type": "Impact + Fire DOT",
+        "special_traits": "On-impact ignition + burn",
+        "goal": "Burn and blow on contact"
+      },
+      "armor_passive": {
+        "name": "Med-Kit",
+        "score": 8.0,
+        "Type": "Armor Passives",
+        "Damage Type": "Unknown",
+        "special_traits": "+2 stims and +2s of stim effect",
+        "goal": "An attempt at surviving longer with your stims"
+      }
+    },
+    "stratagems": [
+      {
+        "name": "FAF-14 Spear",
+        "score": 5.0,
+        "category": "Support Weapons",
+        "Damage Type": "Explosive",
+        "squad_role": "Saboteur",
+        "is_backpack": true,
+        "is_disposable": false,
+        "special_traits": "Backpack-fed homing missile launcher, highest armor penetration (Anti-Tank III)",
+        "goal": "Lock onto and one-shot annihilate large heavily armored targets with guided missiles"
+      },
+      {
+        "name": "Eagle 500kg Bomb",
+        "score": 10.0,
+        "category": "Eagle",
+        "Damage Type": "Explosive",
+        "squad_role": "Anti-Tank",
+        "is_backpack": false,
+        "is_disposable": false,
+        "special_traits": "Massive single anti-tank bomb (500kg / ~1100 lb), penetrates ground then explodes, huge damage (Anti-Tank III)",
+        "goal": "Obliterate a single target (or tight cluster) with a super-heavy bomb  capable of killing almost anything near impact (use with caution!)"
+      },
+      {
+        "name": "Orbital 120mm HE Barrage",
+        "score": 9.0,
+        "category": "Orbital",
+        "Damage Type": "Explosive",
+        "squad_role": "Saboteur",
+        "is_backpack": false,
+        "is_disposable": false,
+        "special_traits": "Series of 120mm high-explosive artillery rounds from orbit; high demolition force",
+        "goal": "Bombard and flatten enemy fortifications or concentrations with medium-caliber orbital artillery"
+      },
+      {
+        "name": "B-100 Portable Hellbomb",
+        "score": 7.0,
+        "category": "Backpack",
+        "Damage Type": "Explosive",
+        "squad_role": "Saboteur",
+        "is_backpack": true,
+        "is_disposable": true,
+        "special_traits": "Very powerful timed explosive charge (essentially a portable Nuke)",
+        "goal": "Destroy objectives (towers, nests) or large enemy clusters; can be planted and then detonates after a short fuse"
+      }
+    ],
+    "how_to_play": {
+      "solo": "Focus on moving stealthily and using terrain to your advantage. Plant B-100 Hellbombs on strategic enemy installations before retreating to a safe distance for detonation.",
+      "co_op": "Coordinate with teammates to cover while setting charges or launching heavy ordinance. Use the Orbital Barrage to clear areas before planting explosives.",
+      "positioning": "Stay at the periphery of the battle, focusing on using your explosive stratagems on high-value targets and structures. Utilize high ground for better targeting with the FAF-14 Spear.",
+      "combo_flow": "Begin engagements with the Eagle 500kg Bomb to eliminate heavy armor or fortifications, follow up with the Orbital Barrage to clear smaller structures and enemy clusters, then plant the B-100 Hellbomb as the final act to obliterate key objectives."
+    },
+    "objective": "Demolish enemy infrastructure and high-value targets to cripple their operational capabilities and pave the way for Helldiver advances.",
+    "lore": "In the smoldering battlefields of the Terminid wars, the Saboteurs of the Hellfire Squad specialize in the surgical removal of enemy nests. Utilizing high-grade explosives and incendiary weapons, they turn enemy fortresses into fiery graves.",
+    "loadout_name": "Inferno Demolisher"
+  },
+  "Saboteur_illuminate": {
+    "loadout": {
+      "primary": {
+        "name": "CB-9 Exploding Crossbow",
+        "score": 8.0,
+        "Type": "Primary",
+        "Damage Type": "Explosive",
+        "special_traits": "Explosive",
+        "goal": "Deploy silent Explosive projectiles for sabotage"
+      },
+      "secondary": {
+        "name": "PLAS-15 Loyalist",
+        "score": 8.0,
+        "Type": "Secondary",
+        "Damage Type": "Plasma",
+        "special_traits": "Splash",
+        "goal": "Splash plasma for flexible secondary fire"
+      },
+      "grenade": {
+        "name": "G-12 High Explosive",
+        "score": 7.0,
+        "Type": "Throwable",
+        "Damage Type": "Explosion",
+        "special_traits": "Heavy armor penetration; default",
+        "goal": "Deal consistent heavy damage across enemy types"
+      },
+      "armor_passive": {
+        "name": "Integrated Explosives",
+        "score": 8.0,
+        "Type": "Armor Passives",
+        "Damage Type": "Unknown",
+        "special_traits": "Blow up when you die",
+        "goal": "Use your corpse as a final explosive trap"
+      }
+    },
+    "stratagems": [
+      {
+        "name": "AC-8 Autocannon",
+        "score": 8.0,
+        "category": "Support Weapons",
+        "Damage Type": "Explosive",
+        "squad_role": "Stratagem Support",
+        "is_backpack": true,
+        "is_disposable": false,
+        "special_traits": "Fully-automatic cannon, explosive armor-piercing rounds with optional flak mode (for anti-personnel)",
+        "goal": "Versatile heavy support  blast armored targets with AP shells or switch to flak to shred groups of infantry"
+      },
+      {
+        "name": "Eagle Strafing Run",
+        "score": 10.0,
+        "category": "Eagle",
+        "Damage Type": "Balistic",
+        "squad_role": "Saboteur",
+        "is_backpack": false,
+        "is_disposable": false,
+        "special_traits": "Instant-response Eagle flyby, sprays 23mm cannon shells (Anti-Tank I) in a line",
+        "goal": "Buzz the battlefield to quickly clear out lines of small enemies or damage medium targets with minimal delay"
+      },
+      {
+        "name": "Orbital 120mm HE Barrage",
+        "score": 9.0,
+        "category": "Orbital",
+        "Damage Type": "Explosive",
+        "squad_role": "Saboteur",
+        "is_backpack": false,
+        "is_disposable": false,
+        "special_traits": "Series of 120mm high-explosive artillery rounds from orbit; high demolition force",
+        "goal": "Bombard and flatten enemy fortifications or concentrations with medium-caliber orbital artillery"
+      },
+      {
+        "name": "Orbital 380mm HE Barrage",
+        "score": 8.0,
+        "category": "Orbital",
+        "Damage Type": "Explosive",
+        "squad_role": "Saboteur",
+        "is_backpack": false,
+        "is_disposable": false,
+        "special_traits": "Massive 380mm artillery shells from orbit; extremely high damage in a focused area",
+        "goal": "Utterly devastate a fixed location (e.g., boss or structure) with heavy orbital artillery (at cost of long cooldown)"
+      }
+    ],
+    "how_to_play": {
+      "solo": "Leverage the Exploding Crossbow for stealth and precision elimination of key targets. Use the Orbital HE Barrages for high-priority demolitions. Position yourself to maximize the damage output of the AC-8 Autocannon without compromising your safety.",
+      "co_op": "Coordinate with your team to target structures and high-value enemies. Use the Eagle Strafing Run for immediate threat mitigation, while your teammates secure your flanks.",
+      "positioning": "Stay slightly behind frontline fighters but within range for effective use of your explosive arsenal. Prefer open spaces to avoid self-damage from explosive backfire.",
+      "combo_flow": "Start with the Exploding Crossbow to silently disable smaller groups, then call in Orbital Barrages on fortified positions or large enemy gatherings. Use the AC-8 for actively engaging tougher or shielded foes."
+    },
+    "objective": "Execute precision demolitions on enemy structures and high-value targets, leveraging powerful explosives and strategic orbital strikes.",
+    "lore": "As the shadows of the Illuminate flicker across the battlefield, the Saboteur stands ready with an arsenal designed to dismantle the intricate web of alien technology and fortifications, one explosive charge at a time.",
+    "loadout_name": "Eclipse Demolisher (3)",
+    "role": "Saboteur",
+    "enemy": "illuminate"
+  },
+  "Stratagem Support_automatons": {
+    "loadout": {
+      "primary": {
+        "name": "BR-14 Adjudicator",
+        "score": 7.5,
+        "Type": "Primary",
+        "Damage Type": "Balistic",
+        "special_traits": "High DPS Penetrator",
+        "goal": "Sustain firepower through armored enemy lines"
+      },
+      "secondary": {
+        "name": "LAS-58 Talon",
+        "score": 7.0,
+        "Type": "Secondary",
+        "Damage Type": "Laser",
+        "special_traits": "Burst kill",
+        "goal": "Laser-sidearm burst for precision finishers"
+      },
+      "grenade": {
+        "name": "G-23 Stun",
+        "score": 9.0,
+        "Type": "Throwable",
+        "Damage Type": "Stun",
+        "special_traits": "Non-damaging AoE stun",
+        "goal": "Freeze enemies in place for repositioning"
+      },
+      "armor_passive": {
+        "name": "Siege-Ready",
+        "score": 8.0,
+        "Type": "Armor Passives",
+        "Damage Type": "Unknown",
+        "special_traits": "Reload faster and carry more ammo for primary weapons",
+        "goal": "Used with low ammo weapons"
+      }
+    },
+    "stratagems": [
+      {
+        "name": "MLS-4X Commando",
+        "score": 7.0,
+        "category": "Support Weapons",
+        "Damage Type": "Explosive",
+        "squad_role": "Stratagem Support",
+        "is_backpack": false,
+        "is_disposable": false,
+        "special_traits": "Disposable four-round rocket launcher, laser-guided or dumb-fire modes",
+        "goal": "Engage armored targets with multiple guided micro-missiles in quick succession"
+      },
+      {
+        "name": "SH-32 Shield Generator Pack",
+        "score": 8.0,
+        "category": "Backpack",
+        "Damage Type": "N/A",
+        "squad_role": "Stratagem Support",
+        "is_backpack": true,
+        "is_disposable": false,
+        "special_traits": "Backpack that projects a spherical energy shield around the user for a short duration",
+        "goal": "Protect the user (and nearby allies) from incoming fire or blasts by activating an energy shield bubble"
+      },
+      {
+        "name": "FX-12 Shield Generator Relay",
+        "score": 10.0,
+        "category": "Emplacement",
+        "Damage Type": "N/A",
+        "squad_role": "Stratagem Support",
+        "is_backpack": false,
+        "is_disposable": false,
+        "special_traits": "Static 360 bubble shield; blocks incoming projectiles",
+        "goal": "Provide temporary cover by blocking enemy projectile attacks in all directions"
+      },
+      {
+        "name": "Orbital Walking Barrage",
+        "score": 8.0,
+        "category": "Orbital",
+        "Damage Type": "Explosive",
+        "squad_role": "Stratagem Support",
+        "is_backpack": false,
+        "is_disposable": false,
+        "special_traits": "A creeping barrage that moves forward from the beacon, multiple explosions in sequence",
+        "goal": "Advance a line of explosions to sweep an area clear (useful for pushing through a defensive line)"
+      }
+    ],
+    "how_to_play": {
+      "solo": "Utilize the SH-32 Shield Generator Pack to provide personal defense while deploying the Orbital Walking Barrage and MLS-4X Commando against enemy clusters. Use the G-23 Stun Grenades to manage swarms and reposition as needed.",
+      "co_op": "Coordinate with teammates to create overlapping zones of protection using FX-12 Shield Generator Relay and SH-32 Shield Pack. Support with MLS-4X and Orbital Barrage as they engage or retreat.",
+      "positioning": "Stay behind the front line, using your shields to create safe operating zones for engagement. Position FX-12 strategically to protect objectives or hold choke points.",
+      "combo_flow": "Deploy FX-12 Shield Generator Relay first for a defensive position. Engage with MLS-4X Commando against hard targets, then use the Orbital Walking Barrage to clear areas or push advancements. Use SH-32 for personal safety when relocating or under heavy fire."
+    },
+    "objective": "Provide strategic battlefield control through the deployment of shields and area impact stratagems to protect allies and manage enemy advancements.",
+    "lore": "In the dense hives of automated defenses, the Helldiver's role is crucial - employing high-tech generator packs and orbital strikes to orchestrate a protective dance around the battlefield, turning the tide of war under a relentless steel sky.",
+    "loadout_name": "Guardian Sentinel (3)",
+    "role": "Stratagem Support",
+    "enemy": "automatons"
+  },
+  "Stratagem Support_terminids": {
+    "loadout": {
+      "primary": {
+        "name": "AR-23A Liberator Carbine",
+        "score": 8.0,
+        "Type": "Primary",
+        "Damage Type": "Ballistic",
+        "special_traits": "Rapid Fire",
+        "goal": "Dominate tight corridors with rapid burst fire"
+      },
+      "secondary": {
+        "name": "P-72 Crisper",
+        "score": 9.0,
+        "Type": "Secondary",
+        "Damage Type": "Fire",
+        "special_traits": "Cround Control",
+        "goal": "Flash-Fire Crowd-Control in shotgun pistol package"
+      },
+      "grenade": {
+        "name": "G-4 Gas",
+        "score": 8.0,
+        "Type": "Throwable",
+        "Damage Type": "Toxic Gas",
+        "special_traits": "Confusion & slow; area denial",
+        "goal": "Disorient and slow enemy swarms"
+      },
+      "armor_passive": {
+        "name": "Advanced Filtration",
+        "score": 8.0,
+        "Type": "Armor Passives",
+        "Damage Type": "Toxic Gas",
+        "special_traits": "95% Toxic Gas resist",
+        "goal": "Survive in your own gas or team gas"
+      }
+    },
+    "stratagems": [
+      {
+        "name": "GL-21 Grenade Launcher",
+        "score": 9.0,
+        "category": "Support Weapons",
+        "Damage Type": "Explosive",
+        "squad_role": "Saboteur",
+        "is_backpack": false,
+        "is_disposable": false,
+        "special_traits": "Belt-fed semi-automatic grenade launcher, high explosive AoE, medium rate-of-fire",
+        "goal": "Rapidly clear groups of light/medium infantry or nests with explosive grenades (but not effective vs heavy armor)"
+      },
+      {
+        "name": "A-FLAM-40 Flame Sentry",
+        "score": 10.0,
+        "category": "Sentry",
+        "Damage Type": "Fire",
+        "squad_role": "Crowd Control",
+        "is_backpack": false,
+        "is_disposable": false,
+        "special_traits": "Automated flamethrower turret; continuous short-range napalm stream",
+        "goal": "Area denial and base defense incinerate any enemy that comes close, ideal for chokepoints"
+      },
+      {
+        "name": "Orbital Napalm Barrage",
+        "score": 10.0,
+        "category": "Orbital",
+        "Damage Type": "Fire",
+        "squad_role": "Crowd Control",
+        "is_backpack": false,
+        "is_disposable": false,
+        "special_traits": "Multiple incendiary canisters from orbit; set a wide area on fire with lingering napalm",
+        "goal": "Deny and damage engulf an entire zone in flames to flush out or block enemies"
+      },
+      {
+        "name": "A-MG-101 HMG Emplacement",
+        "score": 8.0,
+        "category": "Emplacement",
+        "Damage Type": "Balistic",
+        "squad_role": "Stratagem Support",
+        "is_backpack": false,
+        "is_disposable": false,
+        "special_traits": "Buildable Heavy Machine Gun emplacement; must be manned by a Helldiver, has cover and unlimited ammo",
+        "goal": "Provide a player with a powerful mounted HMG position for defense (high damage, high recoil, stationary)"
+      }
+    ],
+    "how_to_play": {
+      "solo": "Utilize a defensive position, strategically deploy your flame sentry and napalm barrage to control areas. Use the Grenade Launcher and HMG for direct threats.",
+      "co_op": "Coordinate with allies, offering support by locking down areas with your flame sentry and napalm. Manage your emplacements based on team strategy.",
+      "positioning": "Stay behind your deployed defenses, using your grenade launcher and primary weapon from a safe distance, avoiding frontline confrontation.",
+      "combo_flow": "Start by deploying the A-MG-101 for sustained fire support. As enemy density increases, deploy the A-FLAM-40 Sentry and use the Orbital Napalm Barrage to create safe zones and manage crowd control."
+    },
+    "objective": "Provide maximum battlefield control and support to your team, using a combination of area denial and heavy emplacements.",
+    "lore": "In the war against the Terminids, the 'Firewall Enforcer' serves as the backbone of Helldiver operations, utilizing high-impact, fire-based stratagems to cleanse and control the battlefield.",
+    "loadout_name": "Firewall Enforcer (2)",
+    "role": "Stratagem Support",
+    "enemy": "terminids"
+  },
+  "Stratagem Support_illuminate": {
+    "loadout": {
+      "primary": {
+        "name": "VG-70 Variable",
+        "score": 10.0,
+        "Type": "Primary",
+        "Damage Type": "Balistic",
+        "special_traits": "Flexible",
+        "goal": "Adapt to any threat with versatile firing modes"
+      },
+      "secondary": {
+        "name": "P-19 Redeemer",
+        "score": 6.0,
+        "Type": "Secondary",
+        "Damage Type": "Balistic",
+        "special_traits": "Rapid Fire",
+        "goal": "Spray panic-causing shots when things get dire"
+      },
+      "grenade": {
+        "name": "G-4 Gas",
+        "score": 10.0,
+        "Type": "Throwable",
+        "Damage Type": "Toxic Gas",
+        "special_traits": "Confusion & slow; area denial",
+        "goal": "Disorient and slow enemy swarms"
+      },
+      "armor_passive": {
+        "name": "Engineering Kit",
+        "score": 8.0,
+        "Type": "Armor Passives",
+        "Damage Type": "Unknown",
+        "special_traits": "Increase max grenade capacity by 2 and 50% less recoil",
+        "goal": "Throw more grenades before having to resupply"
+      }
+    },
+    "stratagems": [
+      {
+        "name": "GL-52 De-Escalator",
+        "score": 7.0,
+        "category": "Support Weapons",
+        "Damage Type": "ARC",
+        "squad_role": "Anti-Tank",
+        "is_backpack": false,
+        "is_disposable": false,
+        "special_traits": "Six-shot stun grenade launcher (Tesla grenades), medium armor penetration, non-lethal crowd control",
+        "goal": "Rapidly pacify crowds  fire volleys of arc stun grenades that neutralize groups without destroying infrastructure"
+      },
+      {
+        "name": "A-FLAM-40 Flame Sentry",
+        "score": 10.0,
+        "category": "Sentry",
+        "Damage Type": "Fire",
+        "squad_role": "Crowd Control",
+        "is_backpack": false,
+        "is_disposable": false,
+        "special_traits": "Automated flamethrower turret; continuous short-range napalm stream",
+        "goal": "Area denial and base defense  incinerate any enemy that comes close, ideal for chokepoints"
+      },
+      {
+        "name": "Orbital Gas Strike",
+        "score": 9.0,
+        "category": "Orbital",
+        "Damage Type": "Toxic Gas",
+        "squad_role": "Crowd Control",
+        "is_backpack": false,
+        "is_disposable": false,
+        "special_traits": "Orbital deployment of chemical gas warheads; saturates area with toxic gas clouds",
+        "goal": "Disable and damage enemies in an area without structural damage  poison infantry and unshielded targets"
+      },
+      {
+        "name": "Orbital Napalm Barrage",
+        "score": 8.0,
+        "category": "Orbital",
+        "Damage Type": "Fire",
+        "squad_role": "Crowd Control",
+        "is_backpack": false,
+        "is_disposable": false,
+        "special_traits": "Multiple incendiary canisters from orbit; set a wide area on fire with lingering napalm",
+        "goal": "Deny and damage  engulf an entire zone in flames to flush out or block enemies"
+      }
+    ],
+    "how_to_play": {
+      "solo": "Deploy tactically, using your sentries to secure positions while utilizing orbital strikes and GL-52 for crowd control. Manage cooldowns to maintain constant zone denial.",
+      "co_op": "Coordinate with teammates to cover multiple angles, sharing the responsibility of triggering stratagems strategically for optimized battlefield control.",
+      "positioning": "Stay behind your sentries and manage your spacing to avoid being flanked by enemies. Use terrain to your advantage, and remember to avoid areas affected by your own area-denial weapons.",
+      "combo_flow": "Begin engagements by setting up the A-FLAM-40 Flame Sentry at chokepoints, followed by using the GL-52 De-Escalator to stun incoming groups. Deploy Orbital Gas Strike and Napalm Barrage to control enemy movements and finish off larger groups."
+    },
+    "objective": "Utilize a diverse arsenal of area denial and crowd control stratagems to manipulate the battlefield, ensuring high survivability and tactical superiority.",
+    "lore": "Specially trained in the art of combat engineering and environmental manipulation, your role is to reshape the battlefield to the Helldivers' advantage. Faced with the cunning Illuminate, only the most sophisticated equipment can promise victory.",
+    "loadout_name": "Scorched Sentry"
+  }
+}
